@@ -1,0 +1,36 @@
+{
+  "name": "it-sysarch32-midterm-malang",
+  "version": "1.0.0",
+  "description": "Node.js shop",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirutsux/it-sysarch32-midterm-MALANG.git"
+  },
+  "keywords": [
+    "node",
+    "shop"
+  ],
+  "author": "Kurtz Malang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirutsux/it-sysarch32-midterm-MALANG/issues"
+  },
+  "homepage": "https://github.com/kirutsux/it-sysarch32-midterm-MALANG#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
